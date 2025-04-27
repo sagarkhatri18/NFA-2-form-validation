@@ -1,0 +1,30 @@
+body{
+    background: linear-gradient(135deg, rgb(142, 204, 142), rgb(26, 81, 88));
+    background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+}
+
+   .error-message {
+       color: red;
+       font-size: 0.875rem;
+       margin-top: 0.25rem;
+       display: none;
+   }
+
+   .strength {
+       font-weight: bold;
+       margin-top: 0.5rem;
+   }
+
+   .strength.weak {
+       color: red;
+   }
+
+   .strength.medium {
+       color: orange;
+   }
+
+   .strength.strong {
+       color: green;
+   }
